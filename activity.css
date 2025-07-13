@@ -1,0 +1,52 @@
+body{
+    display:block;
+    background: linear-gradient(#A3BFFA,#96C93D);
+}
+@font-face{
+    src: url("fonts/george.ttf");
+    font-family: Roboto-Bold;
+}
+@font-face{
+    src: url("fonts/OpenSans-Italic.ttf");
+    font-family: OpenSans;
+}
+h2,h1{
+    font-family: Roboto-Bold;
+}
+.back-map{
+    border :1px solid black;
+    border-radius: 3px;
+    height:25px;
+    background-color: white;
+}
+.back-map:hover{
+    color: black;
+    background-color: #cdeeff;
+}
+.place{
+    text-align: center;
+}
+.groups{
+    text-align: center;
+}
+.group1{
+    margin-top: 10px;
+    margin-left: 50px;
+    display:flex;   
+    gap:120px;
+}
+.group2{
+    margin-left: 50px;
+    display: flex; 
+    gap:120px;
+}
+img{
+    border: 3px solid black;
+    border-radius: 150px;
+    height:300px;
+    width: 300px;
+}
+h5{
+    font-family: OpenSans;
+    width:300px;
+}

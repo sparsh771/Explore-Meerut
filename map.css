@@ -1,0 +1,21 @@
+body{
+    margin:30px;
+
+    margin: 0;
+    text-align-last: left;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.back-map{
+    border :1px solid black;
+    border-radius: 3px;
+    height:25px;
+    background-color: #EBE5D5;
+}
+.back-map:hover{
+    color: white;
+    background-color: #F4C064;
+}

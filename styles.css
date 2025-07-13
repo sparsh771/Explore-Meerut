@@ -1,0 +1,78 @@
+.title {
+    color: green;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 170px;
+}
+body{
+    background-image: url("images/meerut.jpg");
+    background-size: cover;
+    color:white;
+    text-align: center;  
+}
+.btn{
+    display:flex;
+    gap: 20px;
+}
+.map{
+    border :0;
+    border-radius: 3px;
+    height:25px;
+}
+.activity{
+    border :0;
+    border-radius: 3px;
+    height:25px;
+}
+.guid{
+    border :0;
+    border-radius: 3px;
+    height:25px;
+}
+
+.map:hover{
+    color: white;
+    background-color: black;
+}
+.activity:hover{
+    color: white;
+    background-color: black;
+}
+.guid:hover{
+    color: white;
+    background-color: black;
+}
+.visit-meerut{
+    border-radius: 7px;
+    background-color: #487E9E;
+    padding:5px 10px;
+    margin-bottom: 0;
+    
+}
+
+.intro{
+    margin-top: 0;
+    background-color: #1E3859;
+    width: 400px;
+    padding:5px 10px;
+    border-radius: 7px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    height: 30px;
+    margin-top: 270px;
+    padding-top: 5px;
+    background-color: white;
+    color: black;
+    opacity: 0;
+}
+
+.footer:hover{
+    opacity: 60%;
+}
+

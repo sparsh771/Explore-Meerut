@@ -1,0 +1,75 @@
+@font-face{
+    src : url("fonts/Roboto-Italic.ttf");
+    font-family: Roboto-Italic;
+}
+body{
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    font-family: Roboto-Italic;
+    color:#2F2F2F;
+}
+
+.back-map{
+    background-color:aliceblue;
+    border:0;
+    padding: 3px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.back-map:hover{
+       border: 2px solid white;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+      filter: brightness(1.15);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+.persons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.person1{
+    width: 460px;
+    display: flex;
+    justify-content: center;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+    height: 200px;
+
+}
+img{
+    height: 180px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 75px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    column-gap: 17px;
+    text-align: center;
+    height: 180px;
+}
+.name, .experience, .rating, .contact{
+    margin :10px
+}
+.contact{
+    background-color:aliceblue;
+    border:0;
+    padding: 3px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.contact:hover{
+    border: 2px solid white;
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+      filter: brightness(1.15);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
